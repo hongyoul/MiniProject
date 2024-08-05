@@ -114,7 +114,7 @@ public class Ex1 {
 				System.out.println("옵션을 잘못 선택하였습니다.");
 			}
 			 		
-		}
+		} 
 	}
 }
 
