@@ -14,6 +14,7 @@ public class Test2 {
 
    
    static int count = 1;
+   
 
    public static void main(String[] args) throws IOException {
       ArrayList<Order2> list = new ArrayList<>();
@@ -227,13 +228,13 @@ class OrderHistory {
                break;
             }
             
-            String nameArr[] = str.split(", ");
+            String nameArr[] = str.split(",");
             
-            String nameArr2[] = nameArr[1].split(": ");
+            String nameArr2[] = nameArr[1].split(":");
             
-            String quanArr[] =  nameArr[3].split(": ");
+            String quanArr[] =  nameArr[3].split(":");
             
-            String priceArr[] = nameArr[4].split(": ");
+            String priceArr[] = nameArr[4].split(":");
             
             
             if (nameArr2[1].trim().equals(name)) {
